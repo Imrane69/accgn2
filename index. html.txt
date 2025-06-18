@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campagne de Parrainage ACCGN</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      background-color: #fff;
+      max-width: 600px;
+      width: 90%;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #2a9d8f;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .qr-code {
+      margin: 2rem 0;
+    }
+    .qr-code img {
+      width: 200px;
+      height: 200px;
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Campagne de Parrainage ACCGN</h1>
+    <p>
+      Bienvenue ! Tu viens de rejoindre l’initiative de parrainage ACCGN.<br />
+      Scanne le QR code ou clique sur le bouton ci-dessous pour rejoindre le groupe WhatsApp réservé aux nouveaux membres.
+    </p>
+    <div class="qr-code">
+      <img src="https://qrco.de/bg5aPK" alt="QR Code vers le groupe WhatsApp" />
+    </div>
+    <a class="btn-whatsapp" href="https://chat.whatsapp.com/LrzyMTFPJlDBG8DlA05hy2" target="_blank" rel="noopener noreferrer">
+      Rejoindre le groupe WhatsApp
+    </a>
+    <p>
+      Dans ce groupe, tu auras un accueil personnalisé, des ressources pour bien débuter, et un accompagnement sur mesure.
+    </p>
+    <footer>
+      Une initiative ACCGN - Contact : contact@accgn.org
+    </footer>
+  </div>
+</body>
+</html>
